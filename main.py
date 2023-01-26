@@ -57,8 +57,8 @@ for k in range(0,9) :
 
 #Create a line graph with names on x-axis and numbers on  y-axis
 
-ply.bar(year, valueBF, color='#170C83')
-ply.bar(year, valueBE, color="#7269C7")
+ply.bar(year, valueBF, color='#B4E4F3')
+ply.bar(year, valueBE, color="#008FBB")
 ply.bar(year, valueRF, color='#CF0909')
 ply.bar(year, valueRE, color='#FF6A6A')
 
@@ -67,8 +67,8 @@ ply.xlabel("Years")
 # ply.xticks(rotation = 'vertical')
 pyplot.gca().xaxis.set_ticklabels(axix, rotation = 60)
 
-ply.ylabel("Number of Deathes")
+ply.ylabel("Number of Deaths")
 
-legend = ply.legend(['Democrats', 'Republicans'], title="Policy party")
+legend = ply.legend(['Democrats State', 'Democrats Federal', 'Republicans State', 'Republicans Federal'], title="Policy party")
 
 ply.show()
